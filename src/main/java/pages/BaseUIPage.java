@@ -1,17 +1,10 @@
 package pages;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import utils.Webdriver;
 
-import java.sql.Driver;
-
 public class BaseUIPage extends Webdriver {
-
-    public BaseUIPage() {
-        super();
-    }
 
     public static void clickElement(WebElement element) {
         try {
@@ -81,4 +74,6 @@ public class BaseUIPage extends Webdriver {
             System.out.println("An error occurred: " + e.getMessage());
         }
     }
+
+
 }
